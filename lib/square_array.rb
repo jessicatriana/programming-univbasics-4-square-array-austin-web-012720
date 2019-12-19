@@ -11,13 +11,14 @@
 # end
 # end
 
+numbers = [1, 2, 3]
 
 def square_array(array)   
 
 i = 0                 
 while array[i] do    
   
-p i**2       
+return i**2       
 i += 1               
 
 end
