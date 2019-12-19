@@ -11,12 +11,14 @@
 # end
 # end
 
+new_array = []
 def square_array(array)   
 
 i = 0                 
 while array[i] do    
   
 p i**2       
+new_array.push(i)
 i += 1               
 
 end
