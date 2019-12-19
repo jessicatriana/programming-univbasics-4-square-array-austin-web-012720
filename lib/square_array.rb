@@ -15,12 +15,11 @@ numbers = [1, 2, 3]
 
 def square_array(array)   
 new_array = []
-i = 0                 
-while array[i] do    
-  
-return i**2       
-i += 1               
+counter = 0                
+
+while counter <= array.length do    
+return i**2   
 
 end
+counter += 1               
 end
-
