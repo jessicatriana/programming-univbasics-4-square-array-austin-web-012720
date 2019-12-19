@@ -14,11 +14,11 @@
 numbers = [1, 2, 3]
 
 def square_array(array)   
-
+new_array = []
 i = 0                 
 while array[i] do    
   
-return new_array << i**2       
+return i**2       
 i += 1               
 
 end
