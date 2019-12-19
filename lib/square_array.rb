@@ -17,9 +17,8 @@ def square_array(array)
 new_array = []
 counter = 0                
 
-while counter <= array.length do    
-return i**2   
+while counter < array.length do    
 
-end
+new_array << array[counter]
 counter += 1               
 end
